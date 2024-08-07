@@ -13,14 +13,12 @@ let g:slime_target = "vimterminal"
 
 " Customizations
 
-set clipboard=unnamedplus "linux
-"set clipboard=unnamed     "win
+set clipboard=unnamedplus
 colorscheme desert
 set number 
 set relativenumber
 set showcmd
 highlight VertSplit cterm=NONE
-highlight StatusLine cterm=NONE
 nnoremap <Space> :noh<cr>
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
