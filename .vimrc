@@ -14,6 +14,7 @@ let g:slime_target = "vimterminal"
 " Customizations
 
 set clipboard=unnamedplus
+set tabstop=4
 colorscheme desert
 set number 
 set relativenumber
