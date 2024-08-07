@@ -12,6 +12,9 @@ runtime macros/matchit.vim
 let g:slime_target = "vimterminal"
 
 " Customizations
+
+set clipboard=unnamedplus "linux
+"set clipboard=unnamed     "win
 colorscheme desert
 set number 
 set relativenumber
