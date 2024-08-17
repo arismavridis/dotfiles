@@ -14,7 +14,6 @@ nnoremap <Space> :noh<cr>
 
 colorscheme desert
 set number 
-set relativenumber
 set showcmd
 highlight VertSplit cterm=NONE
 highlight VertSplit ctermbg=NONE
