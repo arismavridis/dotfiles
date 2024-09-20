@@ -1,6 +1,6 @@
 call plug#begin()
 Plug 'JuliaEditorSupport/julia-vim'
-Plug 'jpalardy/vim-slime', {'for':['python','julia']} 
+Plug 'jpalardy/vim-slime'
 call plug#end()
 
 runtime macros/matchit.vim
@@ -14,8 +14,8 @@ nnoremap <Space> :noh<cr>
 
 colorscheme desert
 set number 
-set relativenumber
 set showcmd
+set belloff=all
 highlight VertSplit cterm=NONE
 highlight VertSplit ctermbg=NONE
 
