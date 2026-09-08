@@ -8,7 +8,8 @@ smart_punctuation = true
 
 # Maximum number of columns to wrap output to (same as --columns). Omit to use the terminal
 # width, capped at 80.
-columns = 50
+# columns = 50
+full_width = true
 
 # Never load remote resources like images (same as --local).
 local_only = false
