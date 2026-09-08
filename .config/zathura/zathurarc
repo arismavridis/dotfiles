@@ -5,5 +5,5 @@ include ./themes/gruvbox/dark
 set selection-clipboard clipboard
 set font "JetBrainsMono 10"
 set database "sqlite"
-set adjust-open height
+set scroll-full-overlap 0.05
 # set recolor true
