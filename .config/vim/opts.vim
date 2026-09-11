@@ -17,9 +17,9 @@ set wildmenu
 set wildignore+=**/.git/**,**/build/**
 
 " --- colour ---
+set termguicolors
 set background=dark
-colorscheme retrobox
-highlight Normal ctermfg=white ctermbg=black
+colorscheme gruvbox
 
 " --- Line numbers ---
 set relativenumber
