@@ -1,6 +1,6 @@
 set -gx FZF_DEFAULT_OPTS '--height 10% --layout reverse --border none --style minimal'
 
-set -gx LESS '-Ric'
+set -gx LESS '-Ri'
 
 set -gx NEWT_COLORS '
 root=green,black
