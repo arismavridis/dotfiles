@@ -64,6 +64,7 @@ return {
         completion = {
             documentation = { auto_show = true },
             ghost_text = { enabled = false },
+            list = { selection = { preselect = true, }, },
         },
 
         snippets = { preset = 'luasnip' },
@@ -80,18 +81,6 @@ return {
                     score_offset = -100,
                     min_keyword_length = 3,
                 },
-                cmdline = {
-                    min_keyword_length = function(ctx)
-                        -- when typing a command, only show
-                        -- when the keyword is 3 characters or longer
-                        if ctx.mode == 'cmdline'
-                            and string.find(ctx.line, ' ') == nil
-                        then
-                            return 3
-                        end
-                        return 0
-                    end
-                },
                 sources = {
                     name = 'nt',
                     module = 'misc.nt_cmp',
@@ -105,6 +94,12 @@ return {
             },
             completion = {
                 menu = { auto_show = true },
+                list = {
+                    selection = {
+                        preselect = false,
+                        auto_insert = true,
+                    },
+                },
             },
         },
 
